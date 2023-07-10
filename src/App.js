@@ -7,11 +7,13 @@ import RoutesApp from './routes/Routes';
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <BrowserRouter>
-        <RoutesApp/>
-      </BrowserRouter>
-      <Footer/>
+      <Header />
+      <div className='container'>
+        <BrowserRouter>
+          <RoutesApp />
+        </BrowserRouter>
+      </div>
+      <Footer />
     </div>
   );
 }

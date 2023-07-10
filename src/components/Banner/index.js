@@ -3,11 +3,8 @@ import Banner from '../../Image/banner/banner.webp'
 
 const BannerHome = () => {
   return (
-    <div children='container'>
+    <div className='banner mt-1'>
       <img src={Banner} alt="Banner joias Pandoca"  width="100%"/>
-      <section>
-        vitrine
-      </section>
     </div>
   )
 }

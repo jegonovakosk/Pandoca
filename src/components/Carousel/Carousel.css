@@ -1,0 +1,65 @@
+  
+  [className^="number-slide"],
+  [className*=" number-slide"] {
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 500;
+    height: 300px;
+    max-height: 100vh;
+  }
+  
+
+  .navigation-wrapper {
+    position: relative;
+
+  }
+    
+  .arrow {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    fill: #568b43;
+    cursor: pointer;
+    border: 1px solid #568b43;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+  }
+  
+  .arrow--left {
+    left: -45px;
+  }
+  
+  .arrow--right {
+    left: auto;
+    right: -45px;
+  }
+  
+  .arrow--disabled {
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+    border-radius: 50%;
+    border: 1px solid #568b43;
+    fill: #568b43;
+  }
+  
+.corasel-vitrine{
+    margin: 10px 30px;
+}
+
+.card {
+  height: 25vh !important;
+}
+
+.title{
+  padding: 30px 10px;
+}
